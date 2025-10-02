@@ -2,7 +2,7 @@ name: Dev to Rudev Deploy
 on: push
 jobs:
     build:
-        runns-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Get code
               uses: actions/checkout@v2
